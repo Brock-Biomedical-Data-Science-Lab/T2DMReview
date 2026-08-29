@@ -6,14 +6,17 @@ This repository contains the processed files and selected analysis scripts for t
 ## Directory Structure
 ```text
 data/
+├── Boltz-2 inputs/
+│   └── ...                    # Input files used for Boltz-2 predictions
+│
 ├── abcc8/
 │   └── <drug>/
-│       ├── <drug>.smi        # SMILES input for the ligand
-│       ├── <drug>.pdb        # Prepared 3D ligand structure
-│       ├── <drug>.pdbqt      # Ligand input for AutoDock Vina docking
-│       ├── <drug>_out.pdbqt  # AutoDock Vina docking output
-│       ├── complex/           # Protein–ligand complexes generated from individual Vina docking poses
-│       └── closest/           # PLIP results for the representative pose selected in the manuscript
+│       ├── <drug>.smi         # SMILES input for the ligand
+│       ├── <drug>.pdb         # Prepared 3D ligand structure
+│       ├── <drug>.pdbqt       # Ligand input for AutoDock Vina docking
+│       ├── <drug>_out.pdbqt   # AutoDock Vina docking output
+│       ├── complex/            # Protein–ligand complexes generated from individual Vina docking poses
+│       └── closest/            # PLIP results for the representative pose selected in the manuscript
 │
 ├── dpp4/
 │   └── <drug>/
