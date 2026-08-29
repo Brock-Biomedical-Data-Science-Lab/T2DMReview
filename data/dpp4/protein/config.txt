@@ -1,0 +1,10 @@
+center_x = 38.602
+center_y = 51.144
+center_z = 36.819
+
+size_x = 23.9
+size_y = 21.7
+size_z = 18.7
+
+exhaustiveness = 96
+# buffer_added_per_dimension = 15.0 Å
